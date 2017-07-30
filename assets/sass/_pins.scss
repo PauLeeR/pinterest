@@ -71,8 +71,70 @@
 	} 
 
 	.fa-angle-right {
-        color: $gris;
-        cursor: pointer;
+		color: $gris;
+		cursor: pointer;
 	}
 }
+
+#contenedor-pics{
+	width: 100%;
+}
+
+.imgs{
+	//float: left; //imgs una al lado de la otra , no queda bien con float left, pero no quise instalar librerías por lo que lo dejé así con inline-block
+	display: inline-block;
+	top: 0;
+}
+
+.imgs:hover{
+	background: rgba(0, 0, 0, 0.05);;
+	cursor: zoom-in;
+	border-radius: 12px;
+}
+
+.imgs {
+
+	margin-top: -10px;
+	padding-bottom: 30px;
+
+	.foto{
+		width: 263px; //ancho que da pinterest
+		margin: 15px;
+		border-radius: 12px;
+		-webkit-border-radius: 12px; //para todos los navegadores
+	}
+
+	.descripcion{
+		word-wrap: break-word;
+		word-break: normal;
+		max-width: 240px;
+		margin-left: 18px;
+		font-size: 18px;
+		color: #211922;
+	}
+
+	.titulo{
+		max-width: 250px;
+		font-size: 22px;
+		font-weight: bold;
+		padding-bottom: 0px;
+		padding-top: 0px;
+		color: #444;
+		margin-left: 18px;	
+	}
+
+	.iconito{
+		color: $gris;
+		margin-left: 18px;
+	}
+
+	.hashtag{
+		margin-left: 55px;
+	}
+
+
+
+}
+
+
 

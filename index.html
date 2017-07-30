@@ -31,111 +31,121 @@
 						<li><i class="fa fa-bars" aria-hidden="true"></i></li>
 						<li><i class="fa fa-commenting" aria-hidden="true"></i></li>
 					</ul>
-				</nav>			
+			</nav>
+		</div>
 	</header>
 	<hr>
 
 	<section class="pinimgs">
 		<a href="#">
-					<div class="contenedor-pines">
-						<div class="pin0">
-							<p>Drees</p>
-						</div>
-					</div>
+		<div class="contenedor-pines">
+			<div class="pin0">
+				<p>Drees</p>
+			</div>
+		</div>
 		</a>
 		<a href="#">
-					<div class="contenedor-pines">
-						<div class="pin1">
-							<p>San Miguel De Allende</p>
-						</div>
-					</div>
+		<div class="contenedor-pines">
+			<div class="pin1">
+				<p>San Miguel De Allende</p>
+			</div>
+		</div>
 		</a>
 		<a href="#">
-					<div class="contenedor-pines">
-						<div class="pin2">
-							<p>Friki</p>
-						</div>
-					</div>
+			<div class="contenedor-pines">
+				<div class="pin2">
+					<p>Friki</p>
+				</div>
+			</div>
 		</a>
 		<a href="#">
-					<div class="contenedor-pines">
-						<div class="pin3">
-							<p>Invitaciones</p>
-						</div>
-					</div>
+			<div class="contenedor-pines">
+				<div class="pin3">
+					<p>Invitaciones</p>
+				</div>
+			</div>
 		</a>
 		<a href="#">
-					<div class="contenedor-pines">
-						<div class="pin4">
-							<p>Fotography</p>
-						</div>
-					</div>
+			<div class="contenedor-pines">
+				<div class="pin4">
+					<p>Fotography</p>
+				</div>
+			</div>
 		</a>
 		<a href="#">
-					<div class="contenedor-pines">
-						<div class="pin5">
-							<p>Photocall</p>
-						</div>
-					</div>
+			<div class="contenedor-pines">
+				<div class="pin5">
+					<p>Photocall</p>
+				</div>
+			</div>
 		</a>
 		<a href="#">
-					<div class="contenedor-pines">
-						<div class="pin6">
-							<p>Damas</p>
-						</div>
-					</div>
+			<div class="contenedor-pines">
+				<div class="pin6">
+					<p>Damas</p>
+				</div>
+			</div>
 		</a>
 		<a href="#">
-					<div class="contenedor-pines">
-						<div class="pin7">
-							<p>Ilumination</p>
-						</div>
-					</div>
+			<div class="contenedor-pines">
+				<div class="pin7">
+					<p>Ilumination</p>
+				</div>
+			</div>
 		</a>
 		<a href="#">
-					<div class="contenedor-pines">
-						<div class="pin8">
-							<p>Ramo</p>
-						</div>
-					</div>
+			<div class="contenedor-pines">
+				<div class="pin8">
+					<p>Ramo</p>
+				</div>
+			</div>
 		</a>
 		<a href="#">
-					<div class="contenedor-pines">
-						<div class="pin9">
-							<p>Souvenires</p>
-						</div>
-					</div>
+			<div class="contenedor-pines">
+				<div class="pin9">
+					<p>Souvenires</p>
+				</div>
+			</div>
 		</a>
 		<a href="#">
-					<div class="contenedor-pines">
-						<div class="pin11">
-							<p>Invitación</p>
-						</div>
-					</div>
+			<div class="contenedor-pines">
+				<div class="pin11">
+					<p>Invitación</p>
+				</div>
+			</div>
 		</a>
 		<i class="fa fa-angle-right fa-2x" aria-hidden="true"></i>
 	</section>
 
 	<section>
-		<div id="contenedor">
-			<div class="pics">
-				<img src="" alt="">
-			</div>
+		<div id="contenedor-pics">
+			<!--aquí irán las imgs que serán traidas desde el json-->			
 		</div>
 
-	<!--modal para las imgs que serán traidas desde el json-->
-	<div id="modal-work" class="hide">
+	<!--modal para las imgs que serán traidas desde el json -->
+	<div class="modal">
+		<div class="">
+			<div class="contenido">
+				<i class="fa fa-download" aria-hidden="true"></i>
+				<i class="fa fa-check" aria-hidden="true"></i>
+				<i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+			</div>
+			<div class="botonGuardar">
+                <button type="button" class="botonMdl">
+                    <i class="fa fa-thumb-tack" aria-hidden="true"></i>
+                        Guardar
+                    </button>
+            </div>
+            <div class="ventana-modal">
+			<!--imgs y textos modal desde el json-->
+         	</div>
+         	<span class="cerrar">x</span>
 		</div>
-	<!--		<div class="modal">
-				<div class="ventana">
-					<img src="dist/img/1.jpg" alt="">
-					<span class="cerrar">x</span>
-				</div>
-			</div>-->
+	</div>
 
 	</section> 
 
 
-		<script type="text/javascript" src="dist/js/script.js"></script>
-	</body>
-	</html>
+<script type="text/javascript" src="dist/js/script.js"></script>
+</body>
+</html>
