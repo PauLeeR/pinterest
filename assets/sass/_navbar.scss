@@ -1,0 +1,39 @@
+.header-nav ul li{   /***********NO PESCAAAA********/
+    list-style-type:none;
+}
+
+.header-nav {
+    font-family: 'Material', serif;
+    width: 100%;
+    margin: auto;
+
+    img.logo {
+        width: 50px;
+    	/* height: 16%; 
+        margin-right: 20px;*/
+        margin-left: -30px;
+        padding: 5px;
+    }
+
+    .busqueda {
+        background-color: #efefef;
+        height: 40px;
+    }
+    
+    .buscar {
+        border: none;
+    	width: 700px;
+    	background-color: #efefef;
+        height: 40px;
+        margin-bottom: 14px;
+	}
+
+	.buscar img{
+		background-repeat: no-repeat;
+		
+	}
+ 
+}
+
+
+

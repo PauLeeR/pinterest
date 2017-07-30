@@ -4,12 +4,58 @@
 	<meta charset="utf-8">
 	<title>Pinterest</title>
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<!-- Fontawesome -->
+	<script src="https://use.fontawesome.com/d2c9b2c5c1.js"></script>
 	<link rel="stylesheet" type="text/css" href="dist/css/style.min.css">
 </head>
 <body>
+	<header>
+		<!-- navbar -->
+		<div class="header-nav">
+			<nav class="panel">
+				<!-- navigation menu -->
+				<ul class="nav">
+					<li>
+						<!-- logo -->
+						<a href="#"><img src="dist/img/pinterest-logo.png" alt="Logo" class="logo"></a>
+					</li>
+					<li>
+						<!-- search form -->
+						<a href="#" class="busqueda">
+							<input class="buscar" autocomplete="off" name="" placeholder="Buscar" type="text"/><img src="dist/img/search.png" alt="20"/>
+							<i class="fa fa-times" aria-hidden="true"></i> <span class="pines">  Todos los Pines </span>
+							<i class="fa fa-angle-down" aria-hidden="true"></i></a>			
+						</li>
+						<li><a href="#" id="inicio">Inicio</a></li>
+						<li><a href="#" id="usuario"><img src="dist/img/user.jpg" alt="profile" class="paulee">Pau Lee</a></li>
+						<li><i class="fa fa-bars" aria-hidden="true"></i></li>
+						<li><i class="fa fa-commenting" aria-hidden="true"></i></li>
+					</ul>
+				</nav>			
+		</header>
+
+		<section>
+			<div id="contenedor">
+				<div class="pics">
+					<img src="" alt="">
+				</div>
+			</div>
+
+			<!--modal para las imgs que serán traidas desde el json-->
+        <div id="modal-work" class="hide">
+
+        </div>
+
+	<!--		<div class="modal">
+				<div class="ventana">
+					<img src="dist/img/1.jpg" alt="">
+					<span class="cerrar">x</span>
+				</div>
+			</div>
+
+		</section> -->
 
 
-
-	<script type="text/javascript" src="dist/js/script.js"></script>
-</body>
-</html>
+		<script type="text/javascript" src="dist/js/script.js"></script>
+	</body>
+	</html>
