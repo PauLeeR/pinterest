@@ -1,0 +1,78 @@
+.pinimgs{
+
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 10px 20px 28px 10px;
+	height: 90px;
+	box-sizing: border-box;
+	
+	a{
+		text-decoration: none;
+		color: $white;
+		display: inline-block;
+	}
+	p{
+		color: $white;
+		padding: 16px 10px;
+		margin: 5px -2px 5px 3px;
+		text-align: center;
+	}
+
+	.pin0{
+		@include pin-imgs();
+		background-image: url(https://s-media-cache-ak0.pinimg.com/111x55_sf-76/3f/fe/3f/3ffe3f38c605ae8eb1ee8982d0fc7fd5.jpg);
+	}
+
+	.pin1{
+		@include pin-imgs();
+		background-image: url(https://s-media-cache-ak0.pinimg.com/111x55_sf-76/7a/99/ec/7a99ec5b91b85bab94d9a2461e7bc195.jpg);
+	}   
+
+	.pin2{
+		@include pin-imgs();
+		background-image: url(https://s-media-cache-ak0.pinimg.com/111x55_sf-76/e4/63/54/e46354cbab12be13ecf9d9157e9695fc.jpg);
+	} 
+
+	.pin3{
+		@include pin-imgs();
+		background-image: url(https://s-media-cache-ak0.pinimg.com/111x55_sf-76/6c/e5/11/6ce5116a0ff389dbb553132cd54aa1cb.jpg);
+	} 
+	.pin4{
+		@include pin-imgs();
+		background-image: url(https://s-media-cache-ak0.pinimg.com/111x55_sf-76/e4/63/54/e46354cbab12be13ecf9d9157e9695fc.jpg);
+	} 
+	.pin5{
+		@include pin-imgs();
+		background-image: url(https://s-media-cache-ak0.pinimg.com/111x55_sf-76/e0/df/b0/e0dfb0b88f8ae7ef673e4a5bf646b8b5.jpg);
+	} 
+	.pin6{
+		@include pin-imgs();
+		background-image: url(https://s-media-cache-ak0.pinimg.com/111x55_sf-76/56/f4/5a/56f45a81ab80c2712255177d8944c11c.jpg);
+	} 
+	.pin7{
+		@include pin-imgs();
+		background-image: url(https://s-media-cache-ak0.pinimg.com/111x55_sf-76/27/9d/45/279d452e8941a5fb5a73beac1fa5afdc.jpg);
+	} 
+	.pin8{
+		@include pin-imgs();
+		background-image: url(https://s-media-cache-ak0.pinimg.com/111x55_sf-76/5e/f5/5a/5ef55a5226c21711dd6966568e96d6bb.jpg);
+	} 
+	.pin9{
+		@include pin-imgs();
+		background-image: url(https://s-media-cache-ak0.pinimg.com/111x55_sf-76/cc/f4/7f/ccf47fb69b3e541f6bd5290ec7f516ad.jpg);
+	} 
+	.pin10{
+		@include pin-imgs();
+		background-image: url(https://s-media-cache-ak0.pinimg.com/111x55_sf-76/42/41/1c/42411cb32c76a39d34af598873bb37b7.jpg);
+	} 
+	.pin11{
+		@include pin-imgs();
+		background-image: url(https://s-media-cache-ak0.pinimg.com/111x55_sf-76/79/16/e3/7916e3c00623e0bc0ab8768fdefeb128.jpg);
+	} 
+
+	.fa-angle-right {
+        color: $gris;
+        cursor: pointer;
+	}
+}
+

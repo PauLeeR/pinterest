@@ -1,39 +1,93 @@
-.header-nav ul li{   /***********NO PESCAAAA********/
-    list-style-type:none;
+.header-nav ul li{   
+	list-style-type:none;
+	display: inline-block;
+	font-size: 20px;
+}
+
+.header-nav ul li a{
+	text-decoration: none;
 }
 
 .header-nav {
-    font-family: 'Material', serif;
-    width: 100%;
-    margin: auto;
+	font-family: 'Material', serif;
+	width: 100%;
+	margin: auto;
 
-    img.logo {
-        width: 50px;
+	img.logo {
+		width: 50px;
     	/* height: 16%; 
-        margin-right: 20px;*/
-        margin-left: -30px;
-        padding: 5px;
+    	margin-right: 20px;*/
+    	margin-left: -30px;
+    	padding: 5px;
+    }
+
+    .fa{
+    	font-size: 30px;
+    	color: $gris;
     }
 
     .busqueda {
-        background-color: #efefef;
-        height: 40px;
+    	background-color: $fondo;
+    	margin-bottom: 14px;
+    	border: none;
     }
     
     .buscar {
-        border: none;
     	width: 700px;
-    	background-color: #efefef;
-        height: 40px;
-        margin-bottom: 14px;
-	}
+    	background-color: $fondo;
+    	height: 40px;
+    	border: none;
+    	font-size: 24px;
+    	padding: 6px 6px 6px 50px;
+    }
 
-	.buscar img{
-		background-repeat: no-repeat;
-		
-	}
- 
+    .search{
+    	background: url('../img/search.png') no-repeat $fondo 0px 5px;
+    	background-size: 45px;
+    }
+
+    .fa-times, .fa-angle-down {
+    	color: $gris;
+    	margin-right: 24px;
+    	margin-left: 24px;
+    	height: 40px;
+    }
+
+    .pines {
+    	margin-right: 10px;
+    	color: black;
+    	cursor: pointer;
+    	height: 40px;
+    }
+
+    #inicio {
+    	color: $gris;
+    	margin-right: 30px;
+    	margin-bottom: 10px;
+    	cursor: pointer;
+    	margin-bottom: 26px;
+    }
+
+    .paulee{
+    	width: 40px;
+    	height: 40px;
+    	-moz-border-radius: 50px;
+    	-webkit-border-radius: 50px;
+    	border-radius: 50px;
+    	cursor: pointer;
+    	border: 1px solid black;
+    }
+
+    #usuario{
+    	color: $gris;
+        //margin-bottom: 10px;
+        //margin-left: 10px;
+        cursor: pointer;
+        //margin-bottom: 25px;
+    }
 }
+
+
 
 
 
