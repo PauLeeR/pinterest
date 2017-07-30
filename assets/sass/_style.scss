@@ -94,15 +94,15 @@ a {
 }	
 
 .ventana-modal span{
-    color:#fff;
-    background-color:#000;
-    padding:.2em .5em .3em .5em;
-    font-family:Arial;
-    font-weight:bold;
+    color: #fff;
+    background-color: #000;
+    padding: .2em .5em .3em .5em;
+    font-family: Arial;
+    font-weight: $negrita;
     border:2px solid #fff;
-    border-radius:50%;
-    position:absolute;
-    top:-15px;
-    right:-175px;
-    cursor:pointer;
+    border-radius: 50%;
+    position: absolute;
+    top: -15px;
+    right: -175px;
+    cursor: pointer;
 }

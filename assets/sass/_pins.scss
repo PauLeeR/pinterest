@@ -1,8 +1,8 @@
 .pinimgs{
 
-	padding-left: 20px;
-	padding-right: 20px;
-	margin: 10px 20px 28px 10px;
+	padding-left: 55px;
+	//padding-right: 20px;
+	margin: 10px 30px 10px;
 	height: 90px;
 	box-sizing: border-box;
 	
@@ -10,7 +10,9 @@
 		text-decoration: none;
 		color: $white;
 		display: inline-block;
+		padding-right: 10px;
 	}
+	
 	p{
 		color: $white;
 		padding: 16px 10px;
@@ -78,6 +80,7 @@
 
 #contenedor-pics{
 	width: 100%;
+	padding-left: 50px;
 }
 
 .imgs{
@@ -116,7 +119,7 @@
 	.titulo{
 		max-width: 250px;
 		font-size: 22px;
-		font-weight: bold;
+		font-weight: $negrita;
 		padding-bottom: 0px;
 		padding-top: 0px;
 		color: #444;
