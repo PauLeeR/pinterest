@@ -9,8 +9,9 @@ var contador = 0;
 
 
 $(document).ready(function(){
-	$.each(data, function(item, itemes) {  //recorro el arreglo con each
-		//console.log(item);
+	$.each(data, function(i, itemes) {  //recorro el arreglo con each
+		console.log(itemes.title);
+		//console.log(item.image_url); consola dice que item is not defined
 		// el arreglo json que está en data.js lo dividimos en dos grupos de 20 
 		primerosVeinte.forEach(function(item){
 
@@ -45,12 +46,13 @@ $(document).ready(function(){
 			});
 
 		});
+	});
 
 		// Check if a user has scrolled to the bottom
 		$(window).scroll(function() {
 
 			if ($(window).scrollTop() + $(window).height() == $(document).height()) {
-               
+
                 if (contador == 20) {//debe llegar hasta las primeras 20 fotos
                 	return;
                 }
@@ -85,24 +87,22 @@ $(document).ready(function(){
 				$('.ventana-modal').append(modal);
 
 				$('#foto').on('click', function(){
-				$(".modal").mostrarModal();
+					$(".modal").mostrarModal();
 				});
 
 				$(".cerrar").click(function(){
-				$(".modal").fadeOut();
+					$(".modal").fadeOut();
 
 				});
 
 					contador++; //para que pare de contar cuando llegue a los 40
-				
+
 				});
 
-        	};
-		});
+            };
+        });
 
 	});
-});
-
 /*$(document).ready(function(){
 //$('.imgs').click(function(){
 //	mostrarModal();
