@@ -32,9 +32,9 @@
     }
     
     .buscar {
-    	width: 700px;
+    	width: 550px;
     	background-color: $fondo;
-    	height: 40px;
+    	height: 39px;
     	border: none;
     	font-size: 24px;
     	padding: 6px 6px 6px 50px;
@@ -49,17 +49,18 @@
     	color: $gris;
     	margin-right: -5px;
     	margin-left: -5px;
-    	height: 39px;
-    	padding: 6px 20px 6px;
+    	height: 36px;
+    	padding: 7px 4px 8px 0px;
     	background-color: #E9E9EB;
+        border-right: 1px solid lightgray;
     }
 
     .fa-angle-down{
-    	color: $gris;
+    	color: #444;
     	margin-right: 10px;
-    	margin-left: -10px;
+    	margin-left: -43px;
     	height: 39px;
-    	padding: 6px 20px 6px;
+    	padding: 6px 11px 6px;
     	background-color: #E9E9EB;
     }
 
@@ -67,10 +68,10 @@
     	margin-right: 10px;
     	color: black;
     	cursor: pointer;
-    	height: 64px;
+    	//height: 64px;
     	font-size: 20px;
     	font-weight: $negrita;
-    	padding: 15px 32px 15px;
+    	padding: 15px 0px 15px 20px;
     	background-color: #E9E9EB;
     }
 

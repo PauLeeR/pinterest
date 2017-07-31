@@ -7,13 +7,13 @@ console.log(primerosVeinte);
 // contar por cada append para cortarlo cuando agregue los 20 y no tener un scroll infinito
 var contador = 0;
 
-
 $(document).ready(function(){
-	$.each(data, function(i, itemes) {  //recorro el arreglo con each
-		console.log(itemes.title);
+	//$.each(data, function(i, itemes) {  //recorro el arreglo con each
+	//console.log(itemes.title);
 		//console.log(item.image_url); consola dice que item is not defined
 		// el arreglo json que está en data.js lo dividimos en dos grupos de 20 
 		primerosVeinte.forEach(function(item){
+			console.log(item.title);
 
 			var divImg = $(document.createElement('div'));
 			divImg.addClass('imgs');
@@ -46,7 +46,7 @@ $(document).ready(function(){
 			});
 
 		});
-	});
+	
 
 		// Check if a user has scrolled to the bottom
 		$(window).scroll(function() {
@@ -101,8 +101,8 @@ $(document).ready(function(){
 
             };
         });
+       });
 
-	});
 /*$(document).ready(function(){
 //$('.imgs').click(function(){
 //	mostrarModal();

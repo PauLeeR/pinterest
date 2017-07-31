@@ -1,8 +1,8 @@
 .pinimgs{
 
-	padding-left: 55px;
+	padding-left: 0px;
 	//padding-right: 20px;
-	margin: 10px 30px 10px;
+	margin: 15px 15px;
 	height: 90px;
 	box-sizing: border-box;
 	
@@ -10,7 +10,7 @@
 		text-decoration: none;
 		color: $white;
 		display: inline-block;
-		padding-right: 10px;
+		padding-right: 4px;
 	}
 	
 	p{
@@ -80,13 +80,15 @@
 
 #contenedor-pics{
 	width: 100%;
-	padding-left: 50px;
+	padding-left: 0px;
 }
 
 .imgs{
 	//float: left; //imgs una al lado de la otra , no queda bien con float left, pero no quise instalar librerías por lo que lo dejé así con inline-block
 	display: inline-block;
 	top: 0;
+	margin-right: -15px;
+    margin-top: -15px;
 }
 
 .imgs:hover{
@@ -101,7 +103,7 @@
 	padding-bottom: 30px;
 
 	.foto{
-		width: 263px; //ancho que da pinterest
+		width: 236px; //ancho que da pinterest
 		margin: 15px;
 		border-radius: 12px;
 		-webkit-border-radius: 12px; //para todos los navegadores
