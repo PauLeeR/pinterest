@@ -2,8 +2,8 @@ var data = [{"id":1,"title":"Fuke zisukje bu dibas sik.","description":"Jusola m
 
 var primerosVeinte = data.slice(0, 20);
 var segundosVeinte = data.slice(21, 40);
-console.log(segundosVeinte);
-console.log(primerosVeinte);
+//console.log(segundosVeinte);
+//console.log(primerosVeinte);
 // contar por cada append para cortarlo cuando agregue los 20 y no tener un scroll infinito
 var contador = 0;
 
@@ -13,7 +13,7 @@ $(document).ready(function(){
 		//console.log(item.image_url); consola dice que item is not defined
 		// el arreglo json que está en data.js lo dividimos en dos grupos de 20 
 		primerosVeinte.forEach(function(item){
-			console.log(item.title);
+			console.log(item.username);
 
 			var divImg = $(document.createElement('div'));
 			divImg.addClass('imgs');
@@ -59,7 +59,7 @@ $(document).ready(function(){
 
                 // Ahora se deberían mostrar los segundos 20 objetos del arreglo
                 segundosVeinte.forEach(function(itemes) {
-                	console.log(item); //NO LOS MUESTRA, NO SÉ QUÉ NO ESTÁ FUNCIONANDO!!!
+                	console.log(itemes); //NO LOS MUESTRA, NO SÉ QUÉ NO ESTÁ FUNCIONANDO!!!
                 	
                 	var divImg = $(document.createElement('div'));
                 	divImg.addClass('imgs');
